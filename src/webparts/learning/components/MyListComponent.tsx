@@ -41,7 +41,7 @@ const MyListComponent: React.FC<IMyListComponentProps> = (props) => {
   };
 
   useEffect(() => {
-    void fetchItems();
+    fetchItems().catch(error => console.error(error));
   }, []);
 
   // ✅ CLEAR FORM

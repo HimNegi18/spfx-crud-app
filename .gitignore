@@ -4,7 +4,7 @@ logs
 npm-debug.log*
 
 # Dependency directories
-node_modules
+node_modules/
 
 # Build generated files
 dist
@@ -12,6 +12,7 @@ lib
 release
 solution
 temp
+.tmp/
 *.sppkg
 .heft
 
@@ -26,9 +27,11 @@ coverage
 .vs
 bin
 obj
+.vscode/
 
 # Resx Generated Code
 *.resx.ts
 
 # Styles Generated Code
 *.scss.ts
+.env
